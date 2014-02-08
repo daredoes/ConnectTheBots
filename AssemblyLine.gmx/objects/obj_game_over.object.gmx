@@ -31,6 +31,8 @@ cb='|'
 scr_text_cursor_alarm()
 a = 1
 obj_keyboard.text = get_string("Enter your name", "");
+
+alarm[0] = 10
 </string>
           </argument>
         </arguments>
@@ -145,8 +147,8 @@ if(!entered)
 //draw_sprite(spr_play_again,0,room_width/2,room_height/2);
 
 
-
-if button(spr_button , room_width / 2 - 160 , room_height/2 - 48 , 320 ,64,'SUBMIT',-1 , -1 , '')
+if 1=0
+if button(spr_button , room_width / 2  , room_height/2 - 48 , 320 ,64,'SUBMIT',-1 , -1 , '')
     {
     if(obj_keyboard.text != "")
         {

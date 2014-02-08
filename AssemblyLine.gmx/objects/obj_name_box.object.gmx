@@ -133,7 +133,7 @@ draw_set_font(fnt_high_score_text);
 draw_set_halign(fa_center);
 draw_text(x,y,keyboard_string)
 draw_set_font(fnt_button);
-if button(spr_button , xx1 , yy2+64 , 320 ,64,'SUBMIT',-1 , -1 , '')
+if button(spr_button , room_width/2-160 , yy2+64 , 320 ,64,'SUBMIT',-1 , -1 , '')
 {
     if(keyboard_string != "")
     {
