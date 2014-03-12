@@ -187,7 +187,7 @@ if isBase
         global.multiplier = 1;
         global.trbs--;
         obj_base.hspeed= 1;
-        obj_creator.h_value -= 1//= obj_creator.hstart * 2;
+        obj_creator.h_value = 1
         obj_creator.alarm[0] = 200*3/5;
         info(x,y,"Defective Product!",c_red)
         }

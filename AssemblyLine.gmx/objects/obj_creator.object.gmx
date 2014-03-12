@@ -61,7 +61,7 @@ nb.isBase = true
 nb.hspeed=1;
 obj_base.hspeed = h_value;
 global.trbs++;
-h_value += .4;
+h_value += (.4 *(3/5));
 </string>
           </argument>
         </arguments>
