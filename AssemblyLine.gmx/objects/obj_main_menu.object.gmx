@@ -67,7 +67,7 @@ bw = 128
 bh = 48
 bsep = 12
 
-rot+=rotdir
+rot+=rotdir*10
 
 if rot &gt; 0 rotdir-=.001
 if rot &lt; 0 rotdir+=.001
